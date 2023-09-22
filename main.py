@@ -1,3 +1,8 @@
-print("helllo")
-print("2")
-print("3")
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/api/healthchecker")
+def root():
+    return {"message": "Welcome to FastAPI with SQLAlchemy"}
