@@ -9,3 +9,4 @@
 models.Base.metadata.create_all(bind=engine))
 ```
 - run the project using : `uvicorn app.main:app --reload`
+- you can browse the endpoints via :`http://localhost:8000/docs`
