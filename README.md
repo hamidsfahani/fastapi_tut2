@@ -8,4 +8,4 @@
 ```python 
 models.Base.metadata.create_all(bind=engine))
 ```
-- run the project using : `uvicorn app:main --reload`
+- run the project using : `uvicorn app.main:app --reload`
