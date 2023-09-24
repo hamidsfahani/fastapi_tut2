@@ -1,4 +1,4 @@
-# fastapi_tut2
+# A Sample Fastapi Project
 
 - use `python -m venv venv` to create a virtual environment and activate it (`.\venv\Scripts\activate`)
 - to start the project , please run the `main.py` file in `app` folder.
